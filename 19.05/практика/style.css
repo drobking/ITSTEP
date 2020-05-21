@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Arkhip; 
+    src: url(fonts/arkhip/Arkhip_font.ttf);
+
+	
+
+   }
+@font-face {
+	font-family: Andes;
+	src:url(fonts/19348.ttf);
+
+}
+@font-face {
+		font-family:Architectural;
+	src:url(fonts/19279.ttf);
+}
+@font-face {
+	font-family:MozillaC;
+	src:url(fonts/19041.ttf);
+}
+@font-face {
+	font-family:MurreyC;
+	src:url(fonts/19046.ttf);
+}
+@font-face {
+	font-family:Mak;
+	src:url(fonts/19280.otf);
+}
+body{
+	padding: 0;
+	margin:0;
+	
+}
+h1{
+	font-family: Zelek;
+	text-align: center;
+}
+.italicFont{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+h2{
+	font-family: Arkhip;
+	color:blue;
+	text-align: center;
+}
+.BOLD{
+  font-family:MozillaC;
+  text-align: right;
+}
+h3{
+	text-align: center;
+}
+.ingridients{
+font-family: Andes;
+}
+.ing{
+	font-family:Architectural;
+	font-size: 20pt;
+	font-style: bold;
+	letter-spacing: 9px;
+}	
+.cook{
+font-family:MurreyC;
+}
+.cook1{
+	font-family:Mak;
+	text-align: right;
+}
+.block{
+	width: 300px;
+	height: 150px;
+	border:solid 1px red;
+
+}	
+.tips{
+	font-family: Arkhip;
+	color: red;
+}
