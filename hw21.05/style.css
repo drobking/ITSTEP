@@ -1,0 +1,59 @@
+p{
+	font-weight: 600;
+}
+ul{
+	list-style-type:none;
+}
+.menu li:before{
+	content: "❯"
+}
+.flower li:before{
+	content:"🌸";
+}
+.rose li:before{
+	content: "🌼";
+}
+.melon li:before{
+	content: "🍉";
+}
+.leaf li:before{
+	content: "🍁";
+}
+
+
+
+
+.menu_2{
+	list-style-type: upper-roman;
+	
+	font-weight: 600;
+}
+
+.submenu{
+	list-style-type: decimal;
+	font-weight: 600;
+}
+.sub-submenu{
+	font-weight: 600;
+	list-style-type: lower-alpha;
+	
+}
+dt{
+	color: white;
+	background-color: #0E494E;
+	padding-left: 20px;
+	height:  30px;
+	line-height: 30px;
+}
+dd{
+	color: white;
+	background-color: #236167;
+	margin-left: 0;
+	padding-left: 30px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
