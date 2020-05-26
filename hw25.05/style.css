@@ -1,0 +1,91 @@
+.menu{
+	list-style-type: none;
+}
+.menu li{
+	float:left;
+	width: 200px;
+	height: 200px;
+
+}
+.home{
+	background-color:#D16503 ;
+	color:#F6ECE2 ;
+	text-align: center;
+	
+}
+.service{
+	background-color:#E8941A ;
+	color:#F6ECE2 ;
+	text-align: center;
+	
+}
+.port{
+	background-color: #1691BD;
+	color:#F6ECE2 ;
+	text-align: center;
+	
+}
+.blog{
+	background-color:#166BA2 ;
+	color:#F6ECE2 ;
+	text-align: center;
+	
+}
+.team{
+	background-color:#1B3647 ;
+	color: #F6ECE2;
+	text-align: center;
+	
+}
+.cont{
+	background-color:#152836 ;
+	color:#F6ECE2 ;
+	text-align: center;
+	
+}
+.fa-stack{
+	margin-top: 20px;
+}
+.marker{
+	display: block;
+	clear: both;
+	margin: 40px;
+}
+.home .fa-stack .fa-circle{
+color:#D1731B ;
+} 
+.service .fa-stack .fa-circle{
+	color: #E5972B;
+} 
+.port .fa-stack .fa-circle{
+	color:#2C9CC4 ;
+} 
+.blog .fa-stack .fa-circle{
+	color:#2F7BAC ;
+} 
+.team .fa-stack .fa-circle{
+	color:#324957 ;
+} 
+.cont .fa-stack .fa-circle{
+	color: #2D3743;
+} 
+
+.menu_two{
+	list-style-type: none;
+	clear: both;
+	width: 160px;
+}
+.menu_two li{
+	color: white;
+	background-color: #3F3F3F;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom:1px solid black;
+	padding-left: 20px;
+}
+.menu_two li:last-child{
+	border-bottom: 0;
+}
+.menu_two li:hover{
+	background-color: #D70000;
+}
