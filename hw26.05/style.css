@@ -1,0 +1,96 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.main{
+	margin:0 auto;
+	width: 50%;
+}
+.header{
+	height: 40px;
+	width: 100%;
+	background-color: #0DB5E4;
+}
+.header img{
+	margin: 6px;
+	margin-left: 4%;
+}
+.baner img{
+	width: 100%;
+	margin-top:20px;
+}
+h2{
+text-transform: uppercase;
+}
+p{
+	color: grey;
+}
+.btn{
+	width: 106px;
+	height: 40px;
+	background-color: #0CB5E4;
+	border-radius: 5px 5px 5px 5px;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+}
+.center{
+	
+	text-align: center;
+}
+.center h4{
+	font-size: 18pt;
+	margin-bottom: 10px;
+}
+.center .lorem{
+ font-size: 15pt;
+ color: grey;
+}
+.btn-center{
+	margin:20px auto;
+	width: 106px;
+	height: 50px;
+	background-color: #0CB5E4;
+	border-radius: 5px 5px 5px 5px;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+}
+.floatleft img{
+	float:left;
+	margin-right: 20px;
+}
+.btnfloat{
+	display: inline-block;
+	width: 106px;
+	height: 40px;
+	background-color: #0CB5E4;
+	border-radius: 5px 5px 5px 5px;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+}
+.floatright{
+	padding-bottom: 10px;
+}
+.floatright img{
+	float:right;
+	margin-left: 20px;
+}
+.twocol{
+	margin-top: 40px;
+	float:left;
+	width: 45%;
+}
+.threecol{
+	margin-top: 40px;
+	float:left;
+	width: 30%;
+}
+.footer{
+	padding-top: 10px;
+	clear: both;
+}
+.footer h3{
+	font-size: 20pt;
+}
