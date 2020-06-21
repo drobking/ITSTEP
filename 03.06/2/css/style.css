@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+body img {
+  opacity: 0.6;
+}
+
+.back {
+  width: 100%;
+  position: absolute;
+}
+
+.window {
+  padding-bottom: 30px;
+  display: flex;
+  top: 50px;
+  flex-direction: column;
+  position: relative;
+  margin: 0 auto;
+  box-shadow: 0px 0px 28px 8px rgba(0, 0, 0, 0.75);
+  width: 80%;
+}
+.window p {
+  color: white;
+  font-size: 27pt;
+  margin-left: 50px;
+  font-weight: bold;
+}
+.window span {
+  color: white;
+  font-size: 14pt;
+  margin-left: 50px;
+}
+.window .name {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.window .name span {
+  line-height: 30px;
+  margin-right: 4%;
+}
+.window .name input {
+  width: 34%;
+  height: 30px;
+}
+.window .email {
+  display: flex;
+  justify-content: space-around;
+}
+.window .email span {
+  line-height: 50px;
+  margin-right: 4%;
+}
+.window .email input {
+  margin-top: 10px;
+  width: 74%;
+  height: 30px;
+}
+.window .phone span {
+  line-height: 50px;
+  margin-right: 6%;
+}
+.window .phone input {
+  width: 20.5%;
+}
+.window .phone input[placeholder="0000"] {
+  width: 22%;
+}
+.window .mess {
+  display: flex;
+  justify-content: space-around;
+}
+.window .mess select {
+  margin-top: 10px;
+  width: 75%;
+  height: 30px;
+}
+.window .mess span {
+  line-height: 50px;
+}
+.window .somemass {
+  display: flex;
+  justify-content: space-around;
+}
+.window .somemass span {
+  line-height: 50px;
+  margin-right: 4%;
+}
+.window .somemass textarea {
+  width: 74%;
+  height: 100px;
+}
+.window hr {
+  margin-top: 25px;
+  width: 91%;
+  margin-left: 6%;
+  margin-bottom: 25px;
+}
+.window button {
+  color: white;
+  margin: 0 auto;
+  height: 40px;
+  border: 2px solid white;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0);
+}
