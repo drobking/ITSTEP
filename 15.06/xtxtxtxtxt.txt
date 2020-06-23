@@ -1,0 +1,12 @@
+let div = document.querySelector(".div-style");
+console.log(div.classList);
+div.classList.add("shadow");
+div.classList.remove("display");
+let btn=document.querySelector("button");
+btn.onclick=function() {
+div.classList.toggle("display");
+}
+btn.addEventListener("click",addImg);
+function addImg() {
+div.querySelector("img").src="Skan - 012.jpg";
+}

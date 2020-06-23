@@ -1,0 +1,64 @@
+body{
+	background-color: #EC2027;
+}
+.aside{
+	background-color: #FF9934;
+	width: 20%;
+	height: 800px;
+	float: left;
+}
+.yelow{
+	background-color: #F2EA34;
+	width: 78%;
+	height: 800px;
+	float: right;
+
+}
+.grean{
+	margin: 4px auto;
+	background-color: #80C441;
+	width: 90%;
+	height: 32%;
+	
+}
+.blue{
+	width: 27%;
+	height: 90%;
+	background-color: #4576BB;
+	float: left;
+	margin: 1% 1%;
+}
+.purpule{
+	width: 69%;
+	height: 90%;
+	background-color: #6B4F9E;
+	float: right;
+	margin: 1% 0.5%;
+}
+.grow{
+	width: 46%;
+	height: 90%;
+	float: left;
+	background-color: #8A888B;
+	margin: 1% 2%;
+}
+.grow div{
+	width: 90%;
+	height: 45%;
+background-color: white;
+margin-bottom: 1%;
+margin: 2% auto;
+}
+.rose{
+	margin: 1% 2%;
+	width: 46%;
+	height: 90%;
+	float:right;
+	background-color: #986699;
+}
+.rosee{
+	margin: 2% auto;
+	height: 90%;
+	width: 98%;
+	background-color: #986699;
+}

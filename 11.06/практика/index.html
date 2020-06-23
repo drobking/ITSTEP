@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="select" class="select">
+	<input id="ricept" placeholder="name" type="text">
+	<input id="ingridients" placeholder="ingridients" type="text">
+	<input id="timeC" type="text" placeholder="time">
+	<select name="type" >
+		<option value="salat">salat</option>
+		<option value="cake">cake</option>
+	</select>
+	<input type="radio" id="easy" name="dif"  value="dif">
+	<label for="easy">easy</label>
+	<input type="radio" id="norm" name="dif" value="dif">
+	<label for="norm">normal</label>
+	<input type="radio" id="hard" name="dif" value="dif">
+	<label for="hard">hard</label>
+	<button onclick="createRecept()"> save </button>
+	</div>
+
+
+	<script src="js/script.js"></script>
+</body>
+</html>

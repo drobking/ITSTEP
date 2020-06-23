@@ -1,0 +1,28 @@
+@import "variables";
+@import "mixin";
+.one{
+	p{
+		@include font;
+	}
+}
+.one:not(.two){
+	background-color:$bgColor;
+		@include link(red,green,blue,black);
+	width: 70%;
+	height:300px;
+	margin: 10px;
+	ul{
+		list-style-type: none;
+		li{
+			float: left;
+		
+			
+		}
+	}
+}
+.two{
+	background-color: green;
+	width: 300px;
+	height:100px ;
+	border: $border;
+}

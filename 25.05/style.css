@@ -1,0 +1,97 @@
+.menu{
+	list-style-type: none;
+  	padding: 0;
+  	width: 300px;
+}
+.menu a{
+	text-decoration: none;
+	color:black;
+}
+.menu li{
+	background-color: #EEE8D5;
+	padding: 0 40px;
+	line-height: 30px;
+	font-weight: bold;
+	border-bottom: 1px solid white;
+}
+.menu img{
+	
+}
+.menu li:hover{
+background-color: #FDF6E3;
+}
+.icon{
+	display: inline-block;
+    width: 32px; height: 32px;
+    background: url('img/css_sprites.png') -5px -5px;
+	margin:3px 10px 0 0;
+}
+.icon-main{
+	background-position: -5px -5px;
+}
+.icon-contact{
+	background-position:-47px -5px;
+}
+.icon-help{
+	background-position: -89px -5px;
+}
+.font-icon i{
+margin-right: 5px;
+}
+.font-icon .fa-home{
+
+	color: white;
+}
+.sub-menu{
+	padding:0;
+	list-style-type: none;
+	
+	display: none;
+	background-color: #FDF6E3;
+}
+.sub-menu li{
+	border-bottom:1px solid black;
+}
+.cont:hover .sub-menu{
+	display:block;
+}
+.sub-menu li{
+	background-color: #FDF6E3;
+}
+.sub-menu li:hover {
+	background-color:#333333;
+
+}
+.sub-menu li:hover a{
+	color:white;
+}
+
+.horizontal{
+	list-style-type: none;
+
+	overflow: hidden; /*вернуть висоту батьк контйнеру*/
+	margin: 0;
+}
+.horizontal li{
+	background-color: #BFBFBF;
+	margin: 0;
+	float: left;
+	width: 24%;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	border-right: 1px solid white;
+}
+
+.horizontal a{
+	text-decoration: none;
+	color:#2D2D2D;
+	display: block;
+}
+.horizontal li:last-child{
+	border:none;
+}
+.horizontal li:hover{
+background-color: #333333;
+}
+

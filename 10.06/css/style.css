@@ -1,0 +1,15 @@
+.actor{
+	margin:0 auto;
+text-align: center;
+width: 50%;
+}
+img{
+width: 50%;
+float: left;
+}
+.films{
+	clear: both;
+}
+#ss{
+	color: white;
+}

@@ -1,0 +1,58 @@
+.menu-one{
+list-style-type: none;
+overflow: hidden;
+}
+.menu-one li{
+ 	text-align: center;
+ 
+	float: left;
+	width: 19%;
+	height:auto;
+	margin-left: 10px;
+	border-radius: 10px 10px 10px 10px;
+
+}
+.home{
+	background-color: #00C18C;
+	color: #177C5E;
+}
+.setings{
+	background-color: #EA5180;
+	color:#AE2E61 ;
+}
+.twitter{
+	background-color: #53BFE3;
+	color:#29849F ;
+}
+.alhemist{
+	background-color:#F8C64D ;
+	color: #A78325;
+}
+.email{
+	background-color: #DF6DC2;
+	color:#B2388B ;
+}
+
+
+.menu-two{
+color:white;
+	padding: 20px;
+	padding-top: 1px;
+	width: 120px;
+	list-style-type: none;
+	background-color: #0097BE;
+	border-radius: 0px 26px 0px 26px;
+}
+.menu-two li{
+	width: 90px;
+	padding: 5px;
+	border-top: 1px solid #0A648B; 
+	border-left:10px solid #72C8DF ;
+}
+
+.menu-two li:last-child{
+	border-bottom: 1px solid #0A648B; 
+}
+.menu-two li:hover{
+	background-color: #00566B;
+}

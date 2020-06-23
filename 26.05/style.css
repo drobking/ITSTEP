@@ -1,0 +1,39 @@
+body{
+	padding: 0;
+	margin:0;
+}
+
+
+
+.header{
+	height: 100px;
+	border: 1px solid black;
+}
+.blockLeft1{
+	height: 150px;
+	width: 100%;
+	
+	border: 1px solid black;
+
+}
+.left{
+	float: left;
+	width: 20%;
+}
+.main{
+	border: 1px solid black;
+	margin:0 auto;
+	width: 59%;
+	height: 455px;
+	float: left;
+}
+.right{
+	float:right;
+	width: 20%;
+}
+.footer{
+	clear: both;
+	height: 200px;
+	border: 1px solid black;
+	
+}
