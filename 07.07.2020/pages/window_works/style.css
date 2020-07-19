@@ -1,0 +1,175 @@
+.cup{
+	background: #FFFFFF;
+	border-bottom: 1px solid #E4E4E4;
+	height: 50px;
+}
+.row{
+	margin-left: 0!important;
+	margin-right: 0!important;
+}
+
+
+.Label{
+	
+	text-align: center;
+	color: #0E9AFF;
+}
+.nav-item a{
+	font-size: 12pt;
+	color: black;
+	font-weight: bold;
+}
+.icon-down{
+	position: absolute;
+	bottom: 0;
+	right:  0;
+	z-index: -1;
+}
+.icon-top{
+	position: absolute;
+	bottom: 0;
+	left:  0;
+	z-index: -1;
+}
+.getStuff{
+	text-align: center;
+	position: relative;
+	height: 164px;
+		border-bottom: 1px solid #E4E4E4;
+}
+.txtSuff{
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 141px;
+	color: #0E9AFF;
+}
+.dropdown:hover dropdown-menu{
+    position: absolute;
+    transform: translate3d(3px, 40px, 0px);
+    top: 0px;
+    left: 0px;
+    will-change: transform;
+}
+.dropdown-menu.show{
+	color: #FFFFFF;
+	display: flex!important;
+	background: #143F5F;
+	border-radius: 10px;
+}
+.dropdown-header{
+	width: 100%;
+	color: #FFFFFF!important;
+	padding-left: 40px!important;
+}
+a:not([href]):hover{
+color: #16181b!important;
+}
+.appendCate{
+	flex-direction: column;
+	margin-top: 20px; 
+
+}
+.categoriesBtn{
+	margin-top: 10px;
+	border:none;
+	background: none;
+
+}
+.categoriesBtn:hover{
+	cursor: pointer;
+}
+.labelCat{
+	margin-left: 15px;
+	font-weight: bold;
+	font-size: 18px;
+}
+.categoriesBtn{
+	display: block;
+	width: 70%;
+	padding-left: 10px;
+	border-radius: 5px;
+	font-weight: 500;
+font-size: 16px; 
+}
+.categoriesBtn:hover{
+	background: #DADBDC;
+
+}
+.main{
+	background: #F3F4F5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cupMain{
+	height: 150px;
+}
+.cupMain span{
+font-weight: bold;
+font-size: 36px;
+color: #143F5F;
+line-height: 150px;
+}
+.dropdownSort{
+	line-height: 150px;
+	text-align: left;
+}
+.dropdownSort .dropdown-menu.show{
+	line-height: 30px;
+	display: block!important;
+	background: white;
+	border-radius: 10px;
+}
+.Rectangle{
+	height: 290px;
+	width: 190px;
+	margin-bottom: 10px;
+	box-shadow: 0px 0px 11px -2px rgba(0,0,0,0.75);
+	border-radius: 10px;
+
+}
+.Rectangle:hover{
+	cursor: pointer;
+	box-shadow: 0px 0px 11px -2px rgba(0,0,0,1);
+}
+.nameWorks{
+	height: 40px;
+	margin-left: 5%;
+
+}
+.hrWorks{
+	margin: 2px auto;
+	margin-top: 10px;
+	width: 97%;
+
+}
+.viewAndPrice{
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	margin: 0 auto;
+
+}
+.voteWorks{
+margin-left: 3%;
+display: flex;
+justify-content: space-between;
+width: 45%;
+
+}
+.authorWorks{
+	margin-left: 5%;
+}
+.rateWorks{
+	margin-left: 2%;
+}
+.rate_voted_saveWorks{
+	display: flex;
+}
+.fa-save{
+	margin-top: 5px;
+}
+.notFound{
+	width: 286px;
+height: 283px;
+margin: 50px auto;
+
+}

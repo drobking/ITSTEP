@@ -1,0 +1,338 @@
+.cup{
+	background: #FFFFFF;
+	border-bottom: 1px solid #E4E4E4;
+	height: 50px;
+}
+.row{
+	margin-left: 0!important;
+	margin-right: 0!important;
+}
+
+
+.Label{
+	
+	text-align: center;
+	color: #0E9AFF;
+}
+.nav-item a{
+	font-size: 12pt;
+	color: black;
+	font-weight: bold;
+}
+.icon-down{
+	position: absolute;
+	bottom: 0;
+	right:  0;
+	z-index: -1;
+}
+.icon-top{
+	position: absolute;
+	bottom: 0;
+	left:  0;
+	z-index: -1;
+}
+.getStuff{
+	text-align: center;
+	position: relative;
+	height: 164px;
+		border-bottom: 1px solid #E4E4E4;
+}
+.txtSuff{
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 141px;
+	color: #0E9AFF;
+}
+.dropdown:hover dropdown-menu{
+    position: absolute;
+    transform: translate3d(3px, 40px, 0px);
+    top: 0px;
+    left: 0px;
+    will-change: transform;
+}
+.dropdown-menu.show{
+	color: #FFFFFF;
+	display: flex!important;
+	background: #143F5F;
+	border-radius: 10px;
+}
+.dropdown-header{
+	width: 100%;
+	color: #FFFFFF!important;
+	padding-left: 40px!important;
+}
+a:not([href]):hover{
+color: #16181b!important;
+}
+.main{
+	background-color: #F3F4F5;
+}
+.mainInfo{
+	display: flex;
+
+	flex-direction: column;
+}
+.sideBar{
+	
+	display: flex;
+	flex-direction: column;
+}
+.nameImg .nameCat{
+	height: 75px;
+}
+.nameCat .col-7{
+	flex-direction: column;
+    justify-content: space-around;
+}
+.nameCat .name{
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+color: #143F5F;
+}
+.nameCat .category{
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: rgba(20, 63, 95, 0.5);
+}
+.nameImg .col-5{
+text-align: right;
+display: flex;
+flex-direction: column;
+ justify-content: space-between;
+}
+
+.nameImg img{
+width: 100%;
+border-radius: 0 0 10px 10px;
+}
+.nameImg{
+	margin-top: 20px;
+	
+	background: #FFFFFF;
+box-shadow: 0px 10px 10px rgba(14, 154, 255, 0.05);
+border-radius: 10px;
+}
+.attachment{
+		margin-top: 20px;
+	
+	background: #FFFFFF;
+box-shadow: 0px 10px 10px rgba(14, 154, 255, 0.05);
+border-radius: 10px;
+padding-bottom: 20px;
+}
+.attachment span{
+	display: block;
+	font-weight: bold;
+font-size: 18px;
+padding-left: 4%;
+margin-top: 2%;
+padding-bottom: 10px;
+}
+.attachment span i{
+	padding: 5px;
+	color: #143F5F;
+}
+.attachment img{
+	border: 1px solid #F3F4F5;
+box-sizing: border-box;
+border-radius: 10px;
+width: 100%;
+}
+.description{
+		margin-top: 20px;
+	
+	background: #FFFFFF;
+box-shadow: 0px 10px 10px rgba(14, 154, 255, 0.05);
+border-radius: 10px;
+}
+.description span{
+		display: block;
+	font-weight: bold;
+font-size: 18px;
+padding-left: 4%;
+margin-top: 2%;
+}
+.Desc{
+	font-style: normal;
+font-weight: normal;
+font-size: 16px;
+text-align: left;
+margin-left: 20px;
+color: #143F5F;
+margin-right:  20px;
+}
+.Rewiews{
+	padding:0!important;
+	margin:0!important;
+	display: inline!important;
+}
+.reviews{
+	margin-top: 20px;
+	height: 62px;
+	background: #FFFFFF;
+box-shadow: 0px 10px 10px rgba(14, 154, 255, 0.05);
+border-radius: 10px;
+}
+.reviews span{
+		display: block;
+	font-weight: bold;
+font-size: 18px;
+padding-left: 4%;
+margin-top: 2%;
+}
+.price{
+	margin-top: 20px;
+	height: 84px;
+		background: #FFFFFF;
+box-shadow: 0px 10px 10px rgba(14, 154, 255, 0.05);
+border-radius: 10px;
+}
+.price .col-7{
+	flex-direction: column;
+    justify-content: space-around;
+}
+.price .name{
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+color: #143F5F;
+}
+.price .category{
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: rgba(20, 63, 95, 0.5);
+}
+hr{
+	width: 90%;
+}
+.star{
+	color: #143F5F;
+	display: flex;
+}
+.star span{
+	line-height: 15px;
+	margin-left: 5px;
+	color: #143F5F;
+}
+.price .col-5{
+align-items: center;
+}
+.price button{
+	width: 124px;
+height: 36px;
+
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+}
+.PriceProd{
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+margin-right: 20px;
+}
+.PriceSideBar{
+	font-style: normal;
+font-weight: 600;
+font-size: 16pt;
+
+}
+.sideBar .col-4{
+align-items: center;
+color: #143F5F;
+}
+.rate{
+	margin-top: 20px;
+	color: #143F5F;
+	background: #FFFFFF;
+box-shadow: 0px 10px 10px rgba(14, 154, 255, 0.05);
+border-radius: 10px;
+}
+.rateInfo{
+	margin-top: 20px;
+	height: 60px;
+		width: 100%;
+}
+.contact{
+		margin-top: 20px;
+	
+	background: #FFFFFF;
+box-shadow: 0px 10px 10px rgba(14, 154, 255, 0.05);
+border-radius: 10px;
+}
+.social{
+		margin-top: 20px;
+	height: 70px;
+	background: #FFFFFF;
+box-shadow: 0px 10px 10px rgba(14, 154, 255, 0.05);
+border-radius: 10px;
+}
+.rateStat i{
+padding:10px;
+color: #143F5F;
+}
+.OrderNow button{
+width: 100%;
+}
+.Extra{
+	flex-direction: column;
+	padding-left: 20px;
+}
+.Send{
+	width: 100%;
+	justify-content: center;
+	color: #0E9AFF;
+	font-weight: 600;
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+.Avatar{
+	width: 100%;
+	justify-content: center;
+}
+.nameAndSurname{
+	width: 100%;
+	justify-content: center;
+}
+.nameAndSur{
+	font-weight: 600;
+font-size: 16px;
+color: #143F5F;
+}
+.locAndLang{
+	
+	font-weight: 500;
+font-size: 14px;
+color: #143F5F;
+}
+
+.locAndLang .location,.languages{
+	font-weight: 600!important;
+}
+.bio{
+	padding-top: 20px;
+	padding-left: 15px;
+	width: 100%;
+	flex-direction: column;
+	color: #143F5F;
+}
+.biotxt{
+	font-weight: 600;
+font-size: 14px;
+}
+.ContactMe{
+	width: 100%;
+}
+.ContactMe button{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.social .col-3{
+padding-top: 20px;
+
+}
