@@ -1,0 +1,41 @@
+﻿@model IEnumerable<ClassLibrary1.Entities.Game>
+
+@{
+    Layout = "~/Shared/_LayoutPage1.cshtml";
+}
+
+<div>
+    <div class="container">
+        <button type="button" class="btn btn-success btnCenter">@Html.ActionLink("Create New", "Create")</button> 
+    </div>
+
+    <div class="main">
+        @foreach (var item in Model)
+        {
+
+            <div class="card" style="width: 18rem;">
+                <img height="300px" src="@Html.DisplayFor(modelItem => item.Image)" class="card-img-top" alt="...">
+                <div class="card-body buttomZero">
+                    <h6 class="card-title"> @Html.DisplayFor(modelItem => item.Name)</h6>
+                    <p class="card-text smallCardText"> @Html.DisplayFor(modelItem => item.Desc)</p>
+                </div>
+                <ul class="list-group list-group-flush ">
+                    <li class="list-group-item buttomZero smallCardText"> @Html.DisplayNameFor(model => model.Year): @Html.DisplayFor(modelItem => item.Year)</li>
+                    <li class="list-group-item buttomZero smallCardText">  @Html.DisplayNameFor(model => model.Price): @Html.DisplayFor(modelItem => item.Price)</li>
+                    <li class="list-group-item buttomZero smallCardText"> @Html.DisplayNameFor(model => model.Ganre): @Html.DisplayFor(modelItem => item.Ganre.Name)</li>
+                </ul>
+                <div class="card-body buttomZero footerCard">
+                    <a href="#" class="card-link smallCardText">@Html.ActionLink("Edit", "Edit", new { id = item.ID })</a>
+                    <a href="#" class="card-link smallCardText">@Html.ActionLink("Details", "Details", new { id = item.ID })</a>
+                    <a href="#" class="card-link smallCardText">  @Html.ActionLink("Delete", "Delete", new { id = item.ID })</a>
+                </div>
+            </div>
+        }
+
+
+
+
+
+    </div>
+    </div>
+
